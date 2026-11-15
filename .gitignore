@@ -1,0 +1,42 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+.azure/
+.venv/
+venv/
+
+# Acervo pessoal e resultados
+data/
+uploads/
+exports/
+storage/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Dependências e builds
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+coverage/
+playwright-report/
+test-results/
+
+# Infraestrutura local
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+*.tfplan
+
+# Sistema e logs
+.DS_Store
+Thumbs.db
+*.log
